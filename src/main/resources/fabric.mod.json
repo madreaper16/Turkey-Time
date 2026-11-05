@@ -7,6 +7,11 @@
   "description": "Vanilla-style wild turkeys, breeding and hatching, whole-turkey meals, a shareable Thanksgiving Feast, five advancements and optional autumn plumage.",
   "mixins": ["turkeytime.mixins.json"],
   "authors": ["MadReaper16"],
+  "contact": {
+    "homepage": "https://github.com/madreaper16/Turkey-Time",
+    "sources": "https://github.com/madreaper16/Turkey-Time",
+    "issues": "https://github.com/madreaper16/Turkey-Time/issues"
+  },
   "license": "MIT",
   "environment": "*",
   "entrypoints": {

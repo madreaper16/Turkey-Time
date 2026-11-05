@@ -72,7 +72,8 @@ out = ROOT/'build/release'/version
 out.mkdir(parents=True, exist_ok=True)
 files = {
     jar.name: jar.read_bytes(), sources.name: sources.read_bytes(),
-    'README.md': (ROOT/'README.md').read_bytes(),
+    'README.md': (ROOT/'README.md').read_text(encoding='utf-8').replace(
+        'src/main/resources/assets/turkeytime/icon.png', 'turkey-time-mod-icon.png').encode('utf-8'),
     'COPYRIGHT.txt': (ROOT/'COPYRIGHT.txt').read_bytes(),
     'THIRD_PARTY_NOTICES.md': (ROOT/'THIRD_PARTY_NOTICES.md').read_bytes(),
     'turkey-time-curseforge.png': (ROOT/'art/branding/turkey-time-curseforge.png').read_bytes(),

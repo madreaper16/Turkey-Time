@@ -4,6 +4,7 @@
 
 - Updated project credits and documentation for the public source repository.
 - Simplified release packaging and added public build/testing instructions.
+- Added GitHub source and issue links to the mod metadata.
 - Retained the Fabric API 0.165.0+26.3 minimum and existing gameplay.
 
 ## 1.0.2+26.3
