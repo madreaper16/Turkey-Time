@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:husbandry/root",
+  "display": {
+    "icon": {
+      "id": "turkeytime:turkey_egg"
+    },
+    "title": {
+      "translate": "advancements.turkeytime.turkey_hatchery.title"
+    },
+    "description": {
+      "translate": "advancements.turkeytime.turkey_hatchery.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "hatched": {
+      "trigger": "turkeytime:hatched_poult"
+    }
+  },
+  "requirements": [
+    [
+      "hatched"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

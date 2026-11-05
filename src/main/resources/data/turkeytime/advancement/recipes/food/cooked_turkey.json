@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_turkey": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "turkeytime:raw_turkey"
+          }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipes": "turkeytime:cooked_turkey"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_turkey",
+      "has_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "turkeytime:cooked_turkey"
+    ]
+  }
+}

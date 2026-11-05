@@ -1,0 +1,26 @@
+{
+  "entity.turkey.ambient": {
+    "subtitle": "subtitles.turkeytime.turkey.ambient",
+    "sounds": ["turkeytime:entity/turkey/cluck_1", "turkeytime:entity/turkey/cluck_2"]
+  },
+  "entity.turkey.gobble": {
+    "subtitle": "subtitles.turkeytime.turkey.gobble",
+    "sounds": ["turkeytime:entity/turkey/gobble"]
+  },
+  "entity.turkey.alarm": {
+    "subtitle": "subtitles.turkeytime.turkey.alarm",
+    "sounds": ["turkeytime:entity/turkey/alarm"]
+  },
+  "entity.turkey.hurt": {
+    "subtitle": "subtitles.turkeytime.turkey.hurt",
+    "sounds": ["turkeytime:entity/turkey/hurt"]
+  },
+  "entity.turkey.death": {
+    "subtitle": "subtitles.turkeytime.turkey.death",
+    "sounds": ["turkeytime:entity/turkey/death"]
+  },
+  "entity.turkey.flutter": {
+    "subtitle": "subtitles.turkeytime.turkey.flutter",
+    "sounds": ["turkeytime:entity/turkey/flutter"]
+  }
+}

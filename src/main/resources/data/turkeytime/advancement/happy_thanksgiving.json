@@ -1,0 +1,35 @@
+{
+  "parent": "turkeytime:smells_good",
+  "display": {
+    "icon": {
+      "id": "turkeytime:thanksgiving_feast"
+    },
+    "title": {
+      "translate": "advancements.turkeytime.happy_thanksgiving.title"
+    },
+    "description": {
+      "translate": "advancements.turkeytime.happy_thanksgiving.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "placed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:match_block",
+          "blocks": "turkeytime:thanksgiving_feast"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "placed"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

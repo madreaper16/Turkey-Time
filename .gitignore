@@ -1,0 +1,37 @@
+# Build outputs and local game instances
+.gradle/
+build/
+run/
+
+# Editors and local configuration
+.idea/
+.vscode/
+*.iml
+.local-history/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Crash reports, captures, and diagnostic files
+*.log
+*.jfr
+*.hprof
+hs_err_pid*
+replay_pid*
+
+# Private planning, review notes, prompts, and test evidence
+docs/evidence/
+docs/PHASE*_REPORT.md
+docs/PROJECT_SPEC.md
+docs/COOKED_TURKEY_UPDATE.md
+docs/PHASE4_RECIPE_UPDATE.md
+docs/LICENSE_REVIEW.md
+docs/TEST_MATRIX.md
+docs/FABRIC_API_COMPATIBILITY.md
+LICENSE.proposed-MIT.txt
+art/**/PROMPT.md
+art/audio-review/

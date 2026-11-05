@@ -1,0 +1,45 @@
+{
+  "parent": "turkeytime:turkey_hatchery",
+  "display": {
+    "icon": {
+      "id": "turkeytime:turkey_spawn_egg"
+    },
+    "title": {
+      "translate": "advancements.turkeytime.turkey_breeder.title"
+    },
+    "description": {
+      "translate": "advancements.turkeytime.turkey_breeder.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bred": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "turkeytime:turkey"
+          }
+        },
+        "partner": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "turkeytime:turkey"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bred"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

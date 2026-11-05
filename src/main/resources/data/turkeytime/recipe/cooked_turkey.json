@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:smelting", "category": "food",
+  "ingredient": "turkeytime:raw_turkey",
+  "result": { "id": "turkeytime:cooked_turkey" },
+  "experience": 0.35, "cookingtime": 200
+}

@@ -1,0 +1,46 @@
+{
+  "parent": "turkeytime:turkey_hunter",
+  "display": {
+    "icon": {
+      "id": "turkeytime:cooked_turkey"
+    },
+    "title": {
+      "translate": "advancements.turkeytime.smells_good.title"
+    },
+    "description": {
+      "translate": "advancements.turkeytime.smells_good.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "furnace": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "turkeytime:cooked_turkey"
+      }
+    },
+    "smoker": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "turkeytime:cooked_turkey_from_smoking"
+      }
+    },
+    "campfire": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "turkeytime:cooked_turkey_from_campfire_cooking"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "furnace",
+      "smoker",
+      "campfire"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

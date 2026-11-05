@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "turkeytime:item/turkey_spawn_egg"
+  }
+}

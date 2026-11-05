@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:block",
+  "pools": [{
+    "rolls": 1,
+    "condition": { "type": "minecraft:match_block", "blocks": "turkeytime:cooked_turkey", "state": { "bites": "0" } },
+    "entries": [{
+      "type": "minecraft:item", "name": "turkeytime:cooked_turkey",
+      "modifier": [{ "type": "minecraft:explosion_decay" }]
+    }]
+  }]
+}

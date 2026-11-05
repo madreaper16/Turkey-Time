@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BTC",
+    "SSS"
+  ],
+  "key": {
+    "B": "minecraft:bread",
+    "T": "turkeytime:cooked_turkey",
+    "C": "minecraft:carrot",
+    "S": "#minecraft:wooden_slabs"
+  },
+  "result": {
+    "id": "turkeytime:thanksgiving_feast",
+    "count": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_turkey": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "turkeytime:cooked_turkey"
+          }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipes": "turkeytime:thanksgiving_feast"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_turkey",
+      "has_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "turkeytime:thanksgiving_feast"
+    ]
+  }
+}

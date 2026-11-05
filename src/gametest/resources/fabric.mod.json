@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "turkeytime_tests",
+  "version": "1.0.0",
+  "name": "Turkey Time gameplay tests",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-gametest": [
+      "com.madreaper16.turkeytime.TurkeyGameTests",
+      "com.madreaper16.turkeytime.CookedTurkeyGameTests",
+      "com.madreaper16.turkeytime.EggAndFeastGameTests",
+      "com.madreaper16.turkeytime.AdvancementAndSeasonalGameTests"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+Turkey Time!
+Copyright (c) 2026 MadReaper16.
+
+Licensed under the MIT License. See LICENSE for the full permission notice.
+Project credits are in docs/CREDITS.md.
+Third-party components retain their own licenses; see THIRD_PARTY_NOTICES.md.

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "turkeytime",
+  "version": "${version}",
+  "name": "Turkey Time!",
+  "icon": "assets/turkeytime/icon.png",
+  "description": "Vanilla-style wild turkeys, breeding and hatching, whole-turkey meals, a shareable Thanksgiving Feast, five advancements and optional autumn plumage.",
+  "mixins": ["turkeytime.mixins.json"],
+  "authors": ["MadReaper16"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.madreaper16.turkeytime.TurkeyTime"],
+    "client": ["com.madreaper16.turkeytime.client.TurkeyTimeClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "fabric-api": ">=0.165.0+26.3"
+  }
+}
